@@ -1,0 +1,4 @@
+# .htacess
+RewriteEngine on
+RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
+RewriteRule ^(.*)$ /ci-fundamentos/index.php/$1 [L]
